@@ -202,7 +202,7 @@
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="C47-Uw-Yh3" kind="unwind" unwindAction="closeSortWithSegue:" id="gBP-rr-7pI"/>
+                                    <segue destination="C47-Uw-Yh3" kind="unwind" unwindAction="closeDetailVCWithSegue:" id="0Kd-sr-44o"/>
                                 </connections>
                             </button>
                         </subviews>

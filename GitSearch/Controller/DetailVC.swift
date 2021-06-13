@@ -27,3 +27,4 @@ class DetailVC: UIViewController {
 }
 
 
+

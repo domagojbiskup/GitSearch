@@ -46,9 +46,5 @@ class GitResultsTVC: UITableViewController {
         performSegue(withIdentifier: "showDetails", sender: self)
     }
     
-    @IBAction func closeSort(segue: UIStoryboardSegue) {
-    }
+    @IBAction func closeDetailVC(segue: UIStoryboardSegue) {}
 }
-
-
-
