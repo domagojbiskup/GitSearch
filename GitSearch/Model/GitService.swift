@@ -1,5 +1,5 @@
 //
-//  Parser.swift
+//  GitService.swift
 //  GitSearch
 //
 //  Created by Domagoj Biškup on 10/06/2021.

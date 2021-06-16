@@ -36,10 +36,10 @@ class GitSearchVC: UIViewController, UITextFieldDelegate {
     func textFieldDidEndEditing(_ textField: UITextField) {
         userInput = searchTextField.text ?? ""
         searchTextField.text = ""
+        searchTextField.placeholder = "Repo Name"
         performSegue(withIdentifier: "searchPressed", sender: self)
     }
 }
-
 
 
 

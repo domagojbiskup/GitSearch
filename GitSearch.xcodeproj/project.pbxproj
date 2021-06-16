@@ -16,7 +16,7 @@
 		5C46B92A2672895800F8102C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C46B9282672895800F8102C /* LaunchScreen.storyboard */; };
 		5C46B93F2672A8D500F8102C /* GitResultsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C46B93E2672A8D500F8102C /* GitResultsTVC.swift */; };
 		5C46B9432672AD1600F8102C /* GitRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C46B9422672AD1600F8102C /* GitRepo.swift */; };
-		5C46B9462672B1BA00F8102C /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C46B9452672B1BA00F8102C /* Parser.swift */; };
+		5C46B9462672B1BA00F8102C /* GitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C46B9452672B1BA00F8102C /* GitService.swift */; };
 		A53898957880E59A7CFF114F /* Pods_GitSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED66525B6DACB86D292FD8C /* Pods_GitSearch.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +33,7 @@
 		5C46B92B2672895800F8102C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C46B93E2672A8D500F8102C /* GitResultsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitResultsTVC.swift; sourceTree = "<group>"; };
 		5C46B9422672AD1600F8102C /* GitRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitRepo.swift; sourceTree = "<group>"; };
-		5C46B9452672B1BA00F8102C /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		5C46B9452672B1BA00F8102C /* GitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitService.swift; sourceTree = "<group>"; };
 		7ED66525B6DACB86D292FD8C /* Pods_GitSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98761EF700287E5E00424FD2 /* Pods-GitSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitSearch.debug.xcconfig"; path = "Target Support Files/Pods-GitSearch/Pods-GitSearch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,7 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				5C46B9422672AD1600F8102C /* GitRepo.swift */,
-				5C46B9452672B1BA00F8102C /* Parser.swift */,
+				5C46B9452672B1BA00F8102C /* GitService.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -252,7 +252,7 @@
 				5C46B9432672AD1600F8102C /* GitRepo.swift in Sources */,
 				5C46B93F2672A8D500F8102C /* GitResultsTVC.swift in Sources */,
 				5C46B9222672895600F8102C /* GitSearchVC.swift in Sources */,
-				5C46B9462672B1BA00F8102C /* Parser.swift in Sources */,
+				5C46B9462672B1BA00F8102C /* GitService.swift in Sources */,
 				5C46B91E2672895600F8102C /* AppDelegate.swift in Sources */,
 				5C46B9202672895600F8102C /* SceneDelegate.swift in Sources */,
 				5C29E55F2674193700EE9BE2 /* DetailVC.swift in Sources */,
