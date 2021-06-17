@@ -28,18 +28,18 @@ class GitSearchVC: UIViewController, UITextFieldDelegate {
     func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
         if searchTextField.text == "" {
             searchTextField.placeholder = "Type something!"
+            Timer.scheduledTimer(withTimeInterval: 2, repeats: false) { (_) in
+                self.searchTextField.placeholder = "Repo Name"
+            }
             return false
         }
         return true
     }
     
     func textFieldDidEndEditing(_ textField: UITextField) {
-        userInput = searchTextField.text ?? ""
+        userInput = searchTextField.text
         searchTextField.text = ""
-        searchTextField.placeholder = "Repo Name"
         performSegue(withIdentifier: "searchPressed", sender: self)
     }
 }
-
-
 
